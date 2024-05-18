@@ -1,0 +1,22 @@
+[project]
+name = "gputil"
+description = "Utility functions for exporting data to gnuplot"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+  "absl-py",
+  "numpy",
+]
+
+dynamic = ["version"]
+
+
+[project.optional-dependencies]
+dev = [
+  "pylint>=2.6.0",
+  "yapf"
+]
+
+[tool.setuptools]
+py-modules = ["{name}"]
