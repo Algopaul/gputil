@@ -20,4 +20,6 @@ if __name__ == '__main__':
   n, m = 50, 80
   test_matrix = np.random.random((n, m))
   print(test_matrix.shape)
-  write_matrix_binary('test.dat', test_matrix)
+  x=np.linspace(0, 1, m)
+  y=np.linspace(1, 2, n)
+  write_matrix_binary('test.dat', test_matrix, x, y)
