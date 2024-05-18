@@ -17,6 +17,3 @@ dev = [
   "pylint>=2.6.0",
   "yapf"
 ]
-
-[tool.setuptools]
-py-modules = ["{name}"]
